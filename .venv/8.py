@@ -8,8 +8,8 @@ if age < mark_age:
 else:
     difference = age - mark_age
     print(f"Да, {name}, Вы старше меня на {difference} лет.")
-like_programming = input("Вам нравится программировать? ").lower()
-if like_programming == 'да':
+l = input("Вам нравится программировать? ")
+if l == 'да':
     print("Превосходно! Уверен, у Вас получится написать множество полезных и хороших программ.")
 else:
     print("Жаль. Я думал, Вы сможете написать интересную программу для меня.")
