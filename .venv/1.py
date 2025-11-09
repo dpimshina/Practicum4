@@ -1,5 +1,5 @@
 password = input("Введите пароль: ")
-if password.lower() == "пароль":
+if password == "пароль":
     print("Проходи!")
 else:
     print("Доступ запрещен!")
